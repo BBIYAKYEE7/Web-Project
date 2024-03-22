@@ -1,9 +1,9 @@
 import {Wrapper} from "@googlemaps/react-wrapper"
 
 export default function GoogleMapProvider({children}: {children: React.ReactNode}) {
-    const key = import.meta.env.VITE_SECOND_GOOGLE_API_KEY;
+    const key = AIzaSyB50bhEzzTuFo7p4VpWE_GpJgSkDLy3GIA;
     return (
-        <Wrapper apiKey={key}>
+        <Wrapper apiKey={AIzaSyB50bhEzzTuFo7p4VpWE_GpJgSkDLy3GIA}>
             {children}
         </Wrapper>
     );
